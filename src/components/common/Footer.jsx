@@ -30,7 +30,7 @@ const Footer = () => {
             {/* <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <FaTwitter size={18} />
             </a> */}
-            <a href="mailto:codewithsaad@gmail.com.com" className="text-gray-400 hover:text-white transition-colors">
+            <a href="mailto:codewithsaad786@gmail.com.com" className="text-gray-400 hover:text-white transition-colors">
               <FaEnvelope size={18} />
             </a>
           </div>

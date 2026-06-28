@@ -120,7 +120,7 @@ const Navbar = () => {
                   <FaLinkedin size={18} />
                 </a>
                 <a 
-                  href="mailto:codewithsaad@gmail.com.com" 
+                  href="mailto:codewithsaad786@gmail.com.com" 
                   className="p-2 rounded-full hover:bg-white/10 transition-all duration-300 text-gray-400 hover:text-white"
                   aria-label="Email"
                 >
