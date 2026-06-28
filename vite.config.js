@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Saad-portfolio/',
+  base: './',  // ✅ Change this from '/Saad-portfolio/' to './'
   build: {
     outDir: 'dist',
     sourcemap: false,

@@ -51,7 +51,7 @@ const Skills = () => {
       title: 'Tools & Others',
       skills: [
         { name: 'VS Code', icon: FaCode, color: '#007ACC' },
-        { name: 'Git', icon: FaGithub, color: '#ffffff' },
+        { name: 'Github', icon: FaGithub, color: '#ffffff' },
         // { name: 'Docker', icon: FaDocker, color: '#2496ED' },
         // { name: 'Figma', icon: FaFigma, color: '#F24E1E' }
       ]
