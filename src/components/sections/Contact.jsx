@@ -21,9 +21,9 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   const contactInfo = [
-    { icon: FaEnvelope, label: 'Email', value: 'codewithsaad@gmail.com', href: 'mailto:codewithsaad786@gmail.com.com' },
-    { icon: FaPhone, label: 'Phone', value: '+923191515848', href: 'tel:+923191515848' },
-    { icon: FaMapMarkerAlt, label: 'Location', value: 'Kamra, Attock', href: '#' },
+    { icon: FaEnvelope, label: 'Email', value: 'codewithsaad@gmail.com', href: 'mailto:codewithsaad786@gmail.com' },
+    // { icon: FaPhone, label: 'Phone', value: '+923191515848', href: 'tel:+923191515848' },
+    // { icon: FaMapMarkerAlt, label: 'Location', value: 'Kamra, Attock', href: '#' },
     { icon: FaLinkedin, label: 'LinkedIn', value: 'Muhammad Saad', href: 'https://www.linkedin.com/in/muhammad-saad-1500112b6/' },
     { icon: FaGithub, label: 'GitHub', value: 'Code-Saad', href: 'https://www.linkedin.com/in/muhammad-saad-1500112b6/' }
   ]
