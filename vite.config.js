@@ -1,24 +1,15 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "./src/styles/custom.scss";`
-      }
-    }
-  },
+  base: '/Saad-portfolio/',
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          ui: ['framer-motion', 'lucide-react', 'bootstrap']
-        }
-      }
-    }
-  }
+    outDir: 'dist',
+    sourcemap: false,
+  },
+  server: {
+    port: 5173,
+    open: true,
+  },
 })
